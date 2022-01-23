@@ -1,0 +1,301 @@
+@font-face{
+    font-family: 'BYekan';
+    src: url(../fonts/BYekan.eot);
+}
+@font-face{
+    font-family: 'BYekan';
+    src: url(../fonts/BYekan.ttf);
+}
+@font-face{
+    font-family: 'BYekan';
+    src: url(../fonts/BYekan.woff);
+}
+body{
+    font-family: 'BYekan';
+}
+/****** navbar ******/
+.main-navbar{
+    border-bottom: 1px solid #eee;
+}
+.navbar-default{
+    background-color: #fff;
+    border-color: rgba(231, 231, 231, 0.33);
+    padding: 20px 0px;
+}
+.navbar-default .navbar-nav> .active >a, .navbar-default .navbar-nav> .active >a:focus, .navbar-default .navbar-nav> .active >a:hover{
+    color: rgb(38, 86, 228);
+    background-color: #fff;
+}
+.navbar-nav{
+    padding-top: 5px;
+}
+.navbar-default .navbar-nav> .active >a, .navbar-default .navbar-nav> li>a:hover, .navbar-default .navbar-nav> li>a:focus{
+    border-bottom: 2px solid rgb(38, 86, 228);
+    outline: none;
+}
+.navbar{
+    min-height: inherit;
+    margin-bottom: 0px;
+}
+.navbar-brand{
+    height: inherit;
+    font-family: 'BYekan';
+    font-weight: 700;
+    padding: 5px;
+    font-size: 42px;
+    margin-top: 5px;
+}
+.navbar-default .navbar-brand{
+    color: #1c2894;
+}
+span{
+    color: #e67214;
+}
+span:hover{
+    color: #9b9b9b;
+}
+.navbar-default .navbar-nav >li>a{
+    color: #222;
+    font-weight: 600;
+    margin: 0 10px;
+    padding-bottom: 5px;
+    font-size: 14px;
+}
+/****** banner ******/
+#banner{
+    background: url(../img/banner-bg.jpg) no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
+.jumbotron{
+    background-color: transparent;
+    padding: 90px;
+}
+.jumbotron h1{
+    line-height: 180px;
+    border-width: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 62px;
+    color: #fff;
+}
+.jumbotron p{
+    line-height: 21px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    padding-top: 10px;
+}
+.btn-banner{
+    border: 1px solid rgb(38, 86, 228);
+    background-color: rgb(38, 86, 228);
+    padding: 12px 22px;
+    line-height: 0px;
+    border-radius: 25px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-size: 18px;
+    color: #fff;
+    display: inline-block;
+    margin-top: 95px;
+    transition: .4s;
+}
+.btn-banner:hover{
+    background-color: transparent;
+    border: 2px solid rgb(38, 86, 228);
+    color: #fff;
+    cursor: pointer;
+}
+.btn-banner i{
+    padding-left: 10px;
+}
+/****** cta ******/
+.cta-1{
+    background-color: #e67214;
+    padding: 40px 0px;
+}
+.cta-tittle{
+    font-size: 30px;
+    color: #fff;
+}
+.cta-sub-tittle{
+    font-size: 20px;
+    color: #fff;
+}
+.cta-1 h3{
+    color: #fff;
+}
+.cta-1 a{
+    border: 1px solid #000;
+    background-color: #000;
+    padding: 22px 22px;
+    line-height: 0px;
+    border-radius: 25px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-size: 18px;
+    color: #fff;
+    display: inline-block;
+    margin-top: 95px;
+    transition: .4s;
+}
+.cta-1 a:hover{
+    background-color: transparent;
+    border: 2px solid #000;
+    color: #222;
+    cursor: pointer;
+}
+/****** services ******/
+.line-bottom{
+    width: 100px;
+    height: 3px;
+    background-color: rgb(38, 86, 228);
+    border-color: rgb(38, 86, 228);
+}
+.box-service{
+    margin: 0px 20px 60px;
+    display: inline;
+}
+.service-icon{
+    width: 75px;
+    height: 75px;
+    overflow: hidden;
+    line-height: 75px;
+    text-align: center;
+    color: rgb(38, 86, 228);
+    font-size: 30px;
+    margin-right: 10px;
+}
+/****** portfolio ******/
+#portfolio{
+    background-color: rgba(236, 240, 241, 0.44);
+}
+.mix{
+    display: none;
+}
+.fill-btn{
+    margin-bottom: 30px;
+}
+.fill-btn .active{
+    background-color: rgb(38, 86, 228);
+}
+.filter{
+    background-color: rgb(38, 86, 228);
+    border-radius: 30px;
+    color: #fff;
+    padding: 15px 30px;
+    border-right: 2px solid #fff;
+    display: inline-block;
+    position: relative;
+    transition: .4s;
+}
+.filter:hover{
+    background-color: transparent;
+    border: 2px solid rgb(38, 86, 228);
+    color: #222;
+    cursor: pointer;
+}
+.fillimg{
+    margin-bottom: 30px;
+}
+/****** cta2 ******/
+.cta-2{
+    background-color: rgb(38, 86, 228);
+    padding: 40px 0px;
+}
+.cta-2 h3{
+    color: #fff;
+}
+.cta-2 a{
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 22px 22px;
+    line-height: 0px;
+    border-radius: 25px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-size: 18px;
+    color: #222;
+    display: inline-block;
+    margin-top: 95px;
+    transition: .4s;
+}
+.cta-2 a:hover{
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    cursor: pointer;
+}
+/****** contact ******/
+.text-field-box{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 40px;
+    height: 60px;
+    line-height: 60px;
+    text-align: right;
+    color: #ccc;
+    font-size: 14px;
+    padding: 0 30px;
+    width: 100%;
+}
+.button-medium{
+    background-color: rgb(38, 86, 228);
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 18px;
+    width: 100px;
+    height: 48px;
+    margin: 0px auto;
+    text-align: center;
+}
+/****** footer ******/
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.h1infooter{
+    color: #fff;
+    font-size: 40px;
+}
+.social{
+    display: flex;
+}
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1c2894;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.social a:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+.hr-in-end{
+    width: 100%;
+    height: 1px;
+    border-color: rgb(38, 86, 228);
+}
+.end{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin: 22px 10px;
+}
